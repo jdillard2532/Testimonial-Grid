@@ -42,7 +42,9 @@ section {
   position: relative;
   z-index: 1;
 }
-
+.card-name p:nth-of-type(2) {
+  opacity: 0.5;
+}
 .card-title {
   display: flex;
   align-items: center;
