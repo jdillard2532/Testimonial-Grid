@@ -14,6 +14,7 @@ h1 {
 }
 p {
   margin: 0;
+  line-height: 100%;
 }
 section {
   display: flex;
@@ -41,6 +42,9 @@ section {
   background-color: #fff;
   position: relative;
   z-index: 1;
+}
+.profilePicture {
+  max-width: 1.75rem;
 }
 .card-name p:nth-of-type(2) {
   opacity: 0.5;
